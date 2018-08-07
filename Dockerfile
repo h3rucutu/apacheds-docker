@@ -1,15 +1,16 @@
 FROM openjdk:8-jre
+
+MAINTAINER h3rucutu <h3rucutu@gmail>
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		bzip2 \
 		unzip \
 		xz-utils \
 && rm -rf /var/lib/apt/lists/*
 
-# Inspired by h3nrik/apacheds
-
 # ApacheDS installation
 
-ENV APACHEDS_VERSION 2.0.0-M20
+ENV APACHEDS_VERSION 2.0.0-M23
 ENV APACHEDS_ARCH amd64
 
 ENV APACHEDS_ARCHIVE apacheds-${APACHEDS_VERSION}-${APACHEDS_ARCH}.deb
