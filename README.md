@@ -1,3 +1,8 @@
+# Supported tags
+
+- `latest`, `2.0.0-M24`
+- `2.0.0-M23`
+
 # Introduction
 
 This Docker image provides an [ApacheDS](https://directory.apache.org/apacheds/) LDAP server. Optionally it could be used to provide a [Kerberos server](https://directory.apache.org/apacheds/advanced-ug/2.1-config-description.html#kerberos-server) as well.
