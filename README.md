@@ -6,7 +6,7 @@ This Docker image provides an [ApacheDS](https://directory.apache.org/apacheds/)
 
 	docker pull h3rucutu/apacheds:latest
 
-You also can specified the version:
+You can also specified the version:
 
 	docker pull h3rucutu/apacheds:2.0.0-M23
 
