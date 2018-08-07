@@ -1,6 +1,6 @@
 FROM openjdk:8-jre
 
-MAINTAINER h3rucutu <h3rucutu@gmail>
+MAINTAINER h3rucutu <h3rucutu@gmail.com>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		bzip2 \
