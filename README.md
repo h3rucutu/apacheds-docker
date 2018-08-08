@@ -35,7 +35,7 @@ The container can be started issuing the following command:
 
 You can manage the ldap server with the admin user *uid=admin,ou=system* and the default password *secret*. The *default* instance comes with a pre-configured partition *dc=example,dc=com*.
 
-An indivitual admin password should be set following [this manual](https://directory.apache.org/apacheds/basic-ug/1.4.2-changing-admin-password.html).
+An individual admin password should be set following [this manual](https://directory.apache.org/apacheds/basic-ug/1.4.2-changing-admin-password.html).
 
 Then you can import entries into that partition via your own *ldif* file. A [sample.ldif](https://github.com/h3rucutu/apacheds-docker/blob/master/sample/sample.ldif) file is provided with the sources:
 
